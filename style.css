@@ -108,6 +108,7 @@ html {
 
 .h4 {
   margin-top: 24px;
+  width: 583px;
 }
 
 .card-2-img-top {
@@ -124,13 +125,16 @@ html {
   border-radius: 8px;
   font-size: 12px;
   font-weight: bold;
+  margin: 5px 3px;
+
 }
 
 .language-list-2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
   list-style: none;
   width: 260px;
   padding: 0;
@@ -138,4 +142,29 @@ html {
 
 .card-title-2 {
   margin-bottom: 24px;
+}
+
+.recent-work {
+  width: 100%;
+  height: auto;
+}
+
+.about {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.about1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 12%;
+}
+
+.about2 {
+  position: absolute;
+  left: 0;
+  bottom: 60%;
+  width: 16%;
 }
