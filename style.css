@@ -46,7 +46,10 @@ html {
 .card {
   height: 474px;
   width: 369px;
-  left: 0px;
-  top: 0px;
   border-radius: 8px;
+}
+
+.languages {
+    display: flex;
+    flex-flow: row wrap;
 }
