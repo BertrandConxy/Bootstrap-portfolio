@@ -3,6 +3,7 @@ html {
   padding: 0;
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "Inter", sans-serif;
 }
@@ -72,10 +73,14 @@ main {
 }
 
 .card-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 352px;
   width: 369px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   border-radius: 8px;
   background-color: #ebf0ee;
   margin-top: 52px;
@@ -216,12 +221,14 @@ main {
   right: 0;
   width: 285px;
 }
+
 .contact-shapes2 {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 285px;
 }
+
 .contact-shapes1 {
   position: absolute;
   bottom: 0;
