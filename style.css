@@ -1,0 +1,35 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  color: #444;
+  font-weight: bold;
+}
+
+.showcase {
+  background-image: url(images/Header-llustration-desktop.png);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 920px;
+  height: 100vh;
+}
+
+.display-4 {
+  font-weight: bold;
+}
+
+.display-5 {
+  color: #36b37e;
+  font-weight: bold;
+}
