@@ -33,3 +33,11 @@ html {
   color: #36b37e;
   font-weight: bold;
 }
+
+.list-group {
+    flex-direction: row;
+}
+
+.social-link {
+
+}
