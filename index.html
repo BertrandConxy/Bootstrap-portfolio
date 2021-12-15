@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>The Portfolio</title>
   </head>
@@ -19,13 +19,13 @@
     <header>
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+          <a class="nav-link" href="#Portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#About">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#Contact">Contact</a>
         </li>
       </ul>
     </header>
@@ -68,7 +68,7 @@
           </ul>
         </div>
       </section>
-      <section class="recent-work">
+      <section class="recent-work" id="Portfolio">
         <div class="container-fluid">
           <h2 class="display-4">My recent work</h2>
           <div
@@ -179,7 +179,7 @@
           </div>
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="About">
         <div class="container-fluid justify-content-center">
           <h1 class="display-4">About me</h1>
           <img src="/images/illustration-aboutme-1.png" class="about1" alt=" ">
@@ -243,8 +243,49 @@
             </div>
         </div>
       </section>
+      <section class="Contact" id="Contact">
+        <div class="container-fluid content">
+          <p class="h3 contact-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+          <form class="contact-form row g-3 needs-validation" action="https://formspree.io/f/xpzbzzjw" method="POST">
+            <input type="text" class="form-control form-control-lg" placeholder="Full name">
+            <input type="email" class="form-control form-control-lg" placeholder="Email address">
+            <textarea class="form-control" rows="5" id="textarea" name="text" placeholder="Enter text here"></textarea>
+            <button type="submit" class="btn btn-success form-btn">Get in touch</button>
+          </form>
+        </div>
+        <img src="images/Bg-contact-3-desktop.png" alt=" " class="contact-shapes3">
+        <img src="images/Bg-contact-2-desktop.png" alt=" " class="contact-shapes2">
+        <img src="images/Bg-contact-desktop.png" alt=" " class="contact-shapes1">
+      </section>
+      <div class="line"></div>
+      <ul class="list-group padding">
+        <li class="list-group-item">
+          <a href="#" class="social-links"
+            ><img src="/images/Vector.png" alt="github-link"
+          /></a>
+        </li>
+        <li class="list-group-item">
+          <a href="#" class="social-links"
+            ><img src="/images/Linkedin.png" alt="linkedin-link"
+          /></a>
+        </li>
+        <li class="list-group-item">
+          <a href="#" class="social-links"
+            ><img src="/images/Vector-1.png" alt="angellist-link"
+          /></a>
+        </li>
+        <li class="list-group-item">
+          <a href="#" class="social-links"
+            ><img src="/images/Vector-2.png" alt="twitter-link"
+          /></a>
+        </li>
+        <li class="list-group-item">
+          <a href="#" class="social-links"
+            ><img src="/images/Vector-3.png" alt="Medium-link"
+          /></a>
+        </li>
+      </ul>
     </main>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

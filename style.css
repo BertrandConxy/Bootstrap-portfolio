@@ -1,6 +1,17 @@
 html {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .nav-link {
@@ -126,7 +137,6 @@ html {
   font-size: 12px;
   font-weight: bold;
   margin: 5px 3px;
-
 }
 
 .language-list-2 {
@@ -155,6 +165,16 @@ html {
   position: relative;
 }
 
+.Contact {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 164px;
+}
+
 .about1 {
   position: absolute;
   right: 0;
@@ -162,9 +182,59 @@ html {
   width: 12%;
 }
 
+.contact-form {
+  width: 684px;
+}
+
 .about2 {
   position: absolute;
   left: 0;
   bottom: 60%;
   width: 16%;
+}
+
+.contact-text {
+  height: 110px;
+  width: 454px;
+  margin: 0 24px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.form-btn {
+  width: 122px;
+}
+
+.contact-shapes3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 285px;
+}
+.contact-shapes2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 285px;
+}
+.contact-shapes1 {
+  position: absolute;
+  bottom: 0;
+  left: 330px;
+  width: 130px;
+}
+
+.line {
+  background-color: #dfe1e6;
+  height: 1px;
+  width: 100%;
+}
+
+.padding {
+  padding: 28px 0;
 }
