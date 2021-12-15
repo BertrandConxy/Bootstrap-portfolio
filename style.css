@@ -67,6 +67,7 @@ html {
   top: 0px;
   border-radius: 8px;
   background-color: #ebf0ee;
+  margin-top: 52px;
 }
 
 .card-body {
@@ -113,7 +114,7 @@ html {
   padding: 8px 0;
   width: 120px;
   margin-top: 40px;
-  margin-bottom: 82px;
+  margin-bottom: 30px;
 }
 
 .language-element-2 {
@@ -133,4 +134,8 @@ html {
   list-style: none;
   width: 260px;
   padding: 0;
+}
+
+.card-title-2 {
+  margin-bottom: 24px;
 }
